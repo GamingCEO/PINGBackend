@@ -1,0 +1,6 @@
+@PingBackend_HostAddress = http://localhost:5136
+
+GET {{PingBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
